@@ -59,12 +59,105 @@
 
 // console.log(result); // true
 
-console.log(Boolean(" "));
+// console.log(Boolean(" "));
 
-let x = 5;
-x < 4 && console.log("Это никогда не будет напечатано"); // 
-x < 6 && console.log("Это будет напечатано");            // Это будет напечатано
+// let x = 5;
+// x < 4 && console.log("Это никогда не будет напечатано"); //
+// x < 6 && console.log("Это будет напечатано");            // Это будет напечатано
 
-let score = 100, bonus = true;
-(score -= 100) || (score += 1);
-console.log(score);
+// let score = 100, bonus = true;
+// (score -= 100) || (score += 1);
+// console.log(Boolean(undefined) === false);
+
+// let playerName = "Лия Картер";
+// console.log(playerName[1]);
+// console.log(playerName.charAt(1));
+// console.log(playerName.indexOf('и'));
+
+// console.log(playerName.substring(1, 5));
+// console.log(playerName.slice(1, 5));
+
+// let num1 = 42;                  // 42
+// let num2 = 3.14;                // 3.14
+// let num3 = Number(42);          // 42
+// let num4 = parseInt('42');      // 42
+// let num5 = parseFloat('3.14');  // 3.14
+// console.log(1 / 0 === 1 / 0);
+
+// let x = 0 / 0;
+// console.log(x == NaN); // false
+// console.log(isNaN(x)); // true
+
+// const a = 5.145;
+// console.log(a.toFixed(3))
+
+// console.log(typeof null === typeof { a: 'name' });
+
+
+// let starships = {
+//     ["uss_enterprise"]: {
+//         name: 'USS Enterprise',
+//         shields: true,
+//         weapons: true,
+//         engine_power: 90
+//     },
+//     millennium_falcon: {
+//         name: 'Millennium Falcon',
+//         shields: true,
+//         weapons: true,
+//         engine_power: 100
+//     },
+//     prometheus: {
+//         name: 'Prometheus',
+//         shields: true,
+//         weapons: true,
+//         engine_power: 70
+//     },
+// };
+
+// let keys = Object.keys(starships);
+// for (const el of keys) {
+//     console.log(typeof el);
+// }
+
+// const mySymbol = Symbol();
+// console.log(typeof mySymbol);
+
+// Создаем символ для представления "скрытого" свойства
+// const hiddenProperty = Symbol("hiddenProperty");
+// const varia = "Стиль";
+
+// const myObject = {
+//     [hiddenProperty]: "Это скрытое свойство",
+//     "name": "Алиса",
+//     surname: "Битвинкова",
+//     varia
+// };
+
+// for (const key in myObject) {
+//     console.log(myObject[key]);
+// }
+
+// // Доступ к "скрытому" свойству
+// console.log(myObject[hiddenProperty]);
+
+// let arr7 = new Array(3);
+// console.log(arr7[0]);
+
+let items = ["Меч", "Лук", "Посох"];
+
+delete items[0];
+console.log(items);
+items[0] = "Гриха";
+console.log(items);
+console.log(items.shift());
+console.log(items);
+items[0] = "Гриха";
+console.log(items);
+
+let place = { city: "Хоукинс", year: 1984 }; // объект
+
+delete place['city'];       // Удаляем поле city из объекта place
+console.log(place['city'])
+console.log(place);
+
