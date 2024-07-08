@@ -144,20 +144,30 @@
 // let arr7 = new Array(3);
 // console.log(arr7[0]);
 
-let items = ["Меч", "Лук", "Посох"];
+// let items = ["Меч", "Лук", "Посох"];
 
-delete items[0];
-console.log(items);
-items[0] = "Гриха";
-console.log(items);
-console.log(items.shift());
-console.log(items);
-items[0] = "Гриха";
-console.log(items);
+// delete items[0];
+// console.log(items);
+// items[0] = "Гриха";
+// console.log(items);
+// console.log(items.shift());
+// console.log(items);
+// items[0] = "Гриха";
+// console.log(items);
 
-let place = { city: "Хоукинс", year: 1984 }; // объект
+// let place = { city: "Хоукинс", year: 1984 }; // объект
 
-delete place['city'];       // Удаляем поле city из объекта place
-console.log(place['city'])
-console.log(place);
+// delete place['city'];       // Удаляем поле city из объекта place
+// console.log(place['city'])
+// console.log(place);
 
+// let set1 = new Set();
+
+// // Создание множества с начальными значениями
+// let set2 = new Set([1, 2, 3]);
+
+// console.log(set1); // Set(0) {}
+// console.log(set2); // Set(3) { 1, 2, 3 }
+
+let set = new Set([1, 2, 2, 3, 3, 3]);
+console.log(set);
