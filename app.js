@@ -156,18 +156,101 @@
 // console.log(items);
 
 // let place = { city: "Хоукинс", year: 1984 }; // объект
-
-// delete place['city'];       // Удаляем поле city из объекта place
-// console.log(place['city'])
+// delete place.city;
 // console.log(place);
 
-// let set1 = new Set();
+// let str1 = String("Привет, Мир!");
+// let str2 = new String("Привет, Мир!");
 
-// // Создание множества с начальными значениями
-// let set2 = new Set([1, 2, 3]);
+// console.log(str1);            // Привет, Мир!
+// console.log(str2);            // [String: 'Привет, Мир!']
+// console.log(str2.toString()); // Привет, Мир!
+// console.log(str2.includes("Привет"));
 
-// console.log(set1); // Set(0) {}
-// console.log(set2); // Set(3) { 1, 2, 3 }
+// const str = "Планета";
+// let result;
+// let vowels = 0;
+// let consonants = 0;
 
-let set = new Set([1, 2, 2, 3, 3, 3]);
-console.log(set);
+// const alphaVowels = "а,у,о,ы,э,я,ю,ё,и,е".split(",");
+// for (const letter of str) {
+//     if (alphaVowels.includes(letter)) {
+//         vowels++;
+//     } else {
+//         consonants++;
+//     }
+// }
+
+// result = `согласных: ${consonants}, гласных: ${vowels}`;
+// console.log(result);
+
+// const myArray = [11, 13, 3];
+// console.log(myArray);
+// console.log(Math.min(...myArray));
+
+// let obj3 = Object({
+//     name: 'Лия',
+//     age: 21,
+//     isMarried: false
+// });
+
+// console.log(obj3);
+
+// function greet(name) {
+//     console.log(`Привет, ${name}!`);
+// }
+
+// const gre = greet("Лия"); // Привет, Лия!
+
+// const myArray = [11, 13, 3];
+// const minElement = myArray.reduce((acc, el) => {
+//     if (el > acc) {
+//         return acc;
+//     } else {
+//         return el;
+//     }
+// }, 0);
+
+// console.log(minElement);
+
+// var starships = {
+//     uss_enterprise: {
+//         name: "USS Enterprise",
+//         shields: false,
+//         weapons: true,
+//         engine_power: 90
+//     },
+//     millennium_falcon: {
+//         name: "Millennium Falcon",
+//         shields: true,
+//         weapons: true,
+//         engine_power: 100
+//     },
+//     prometheus: {
+//         name: "Prometheus",
+//         shields: false,
+//         weapons: true,
+//         engine_power: 70
+//     },
+// };
+
+// function updateShipEnginePower(id, power) {
+//     if (starships[id]) {
+//         starships[id].engine_power = power;
+//     }
+// }
+
+// updateShipEnginePower("prometheus", 100);
+
+// console.log(starships);
+
+// setTimeout(function () {
+//     console.log("Привет, Лия!");
+// }, 10000);
+// (() => console.log("Привет!"))();
+
+// let hello = (name) => name && "Гость";
+// console.log(hello(), hello("Лия"));
+
+const basalt = "Дверк";
+console.log(basalt.slice(3, 3));
