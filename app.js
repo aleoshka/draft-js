@@ -6,5 +6,5 @@ let enemy = {
     location: "Хоукинс"
 };
 
-console.log(Object.hasOwn(enemy, "name"));
-console.log(Object.hasOwn(enemy, "status"));
+console.log(enemy.hasOwnProperty("name"));
+console.log(enemy.hasOwnProperty("status"));
