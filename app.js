@@ -1,10 +1,5 @@
 'use strict';
 
-let character = {};
+let enemy = { name: "Демогоргон", power: 100, location: "Хоукинс" };
 
-Object.defineProperty(character, "name", {
-    value: "Дасьтин Хоффман",
-    writable: true
-})
-
-console.log(character);
+console.log(Object.entries(enemy));
