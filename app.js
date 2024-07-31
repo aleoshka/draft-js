@@ -1,10 +1,10 @@
 'use strict';
 
-let enemy = [
-    ['name', 'Демогоргон'],
-    ['power', 100],
-    ['location', 'Хоукинс']
-];
+let enemy = {
+    name: "Демогоргон",
+    power: 100,
+    location: "Хоукинс"
+};
 
-let enemyObj = Object.fromEntries(enemy);
-console.log(enemyObj);
+console.log(Object.hasOwn(enemy, "name"));
+console.log(Object.hasOwn(enemy, "status"));
