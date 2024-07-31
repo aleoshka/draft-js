@@ -6,4 +6,4 @@ let enemy = {
     location: "Хоукинс"
 };
 
-console.log(Object.keys(enemy));
+console.log(Object.values(enemy));
