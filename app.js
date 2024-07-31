@@ -1,13 +1,13 @@
 'use strict';
 
 let enemy = {
-    name: "Векна",
-    power: 1000,
-    location: "Хоукинс"
+    name: "Истязатель Разума",
+    power: 1000000,
+    location: "Изнанка"
 };
 
-console.log(Object.isFrozen(enemy)); // false
+console.log(Object.isSealed(enemy)); // false
 
-Object.freeze(enemy); // Замораживаем объект
+Object.seal(enemy); // Запечатываем объект
 
-console.log(Object.isFrozen(enemy)); // true
+console.log(Object.isSealed(enemy)); // true
