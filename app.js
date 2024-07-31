@@ -6,8 +6,8 @@ let enemy = {
     location: "Хоукинс"
 };
 
-console.log(Object.isExtensible(enemy));
+console.log(Object.isFrozen(enemy)); // false
 
-Object.freeze(enemy);
+Object.freeze(enemy); // Замораживаем объект
 
-console.log(Object.isExtensible(enemy));
+console.log(Object.isFrozen(enemy)); // true
