@@ -1,13 +1,9 @@
 'use strict';
 
 let enemy = {
-    name: "Истязатель Разума",
-    power: 1000000,
-    location: "Изнанка"
+    name: "Демогоргон",
+    power: 100,
+    location: "Хоукинс"
 };
 
-console.log(Object.isSealed(enemy)); // false
-
-Object.seal(enemy); // Запечатываем объект
-
-console.log(Object.isSealed(enemy)); // true
+console.log(Object.keys(enemy));
