@@ -1,10 +1,13 @@
 'use strict';
 
 let enemy = {
-    name: "Демогоргон",
-    power: 100,
+    name: "Векна",
+    power: 1000,
     location: "Хоукинс"
 };
 
-console.log(enemy.hasOwnProperty("name"));
-console.log(enemy.hasOwnProperty("status"));
+console.log(Object.isExtensible(enemy));
+
+Object.freeze(enemy);
+
+console.log(Object.isExtensible(enemy));
