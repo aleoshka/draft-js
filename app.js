@@ -1,7 +1,6 @@
 'use strict';
 
-let str = "Этот метод является регистрозависимым.";
+let str = "Привет, Лия!";
 
-console.log(str.endsWith("."));     // true
-console.log(str.endsWith("!"));     // false
-console.log(str.endsWith("д", 10)); // true
+console.log(str.includes("Лия")); // true
+console.log(str.includes("лия")); // false
