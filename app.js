@@ -1,8 +1,6 @@
 'use strict';
 
-let str = "Привет, Лия!";
+let str = "Этот метод является регистрозависимым.";
 
-console.log(str.indexOf("и", 3)); // 0
-console.log(str.indexOf("", 3));    // 8
-console.log(str.indexOf("лия"));    // -1
-console.log(str.indexOf("!"));      // 11
+console.log(str.lastIndexOf("р")); // 26
+console.log(str.lastIndexOf("Р")); // -1
