@@ -2,4 +2,4 @@
 
 let str = "Привет, Лия";
 
-console.log(str.padEnd(30, "!"));
+console.log(str.padStart(30, "!"));
