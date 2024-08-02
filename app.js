@@ -1,9 +1,8 @@
 'use strict';
 
-let enemy = {
-    name: "Демогоргон",
-    power: 100,
-    location: "Хоукинс"
-};
 
-console.log(Object.values(enemy));
+let str1 = new String("Привет, Лия");
+let str2 = String("Привет, Лия");
+
+console.log(typeof str1); // object
+console.log(typeof str2); // string
