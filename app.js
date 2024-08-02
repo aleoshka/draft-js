@@ -1,4 +1,4 @@
 'use strict';
 
-let str = "Привет, Лия!";
-console.log(str.charCodeAt(1)); // 1088
+let str = "Привет";
+console.log(str.concat(", ", "Лия", "!")); // Привет, Лия!
