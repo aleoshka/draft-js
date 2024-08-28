@@ -2,9 +2,9 @@
 
 let start = new Date();
 
-start.setFullYear(1994);
+start.setMonth(7);
 
-console.log(start.getFullYear()); // 1994
+console.log(start.getMonth()); // 7
 
 
 
