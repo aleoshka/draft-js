@@ -1,10 +1,9 @@
 'use strict';
 
 let today = new Date();
-let year = today.getFullYear();
+let month = today.getMonth();
 
-console.log(year); // 2024
-
+console.log(month); // 1
 
 
 
