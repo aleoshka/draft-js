@@ -1,8 +1,9 @@
 'use strict';
 
-let str = "Привет, Лия!";
+let str = "Лия,Макс,Дастин,Майкл";
 
-console.log(str.replace("Лия", "Макс")); // Привет, Макс!
+console.log(str.split(","));    // ["Лия", "Макс", "Дастин", "Майкл"]
+console.log(str.split(",", 2)); // ["Лия", "Макс"]
 
 
 
