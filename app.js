@@ -2,9 +2,9 @@
 
 let start = new Date();
 
-start.setMonth(7);
+start.setHours(7);
 
-console.log(start.getMonth()); // 7
+console.log(start.getHours()); // 7
 
 
 
