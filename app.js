@@ -1,5 +1,12 @@
 'use strict';
 
-let str = "Привет, Лия";
+let str = "★";
 
-console.log(str.padStart(30, "!"));
+console.log(str.repeat(1)); // ★
+console.log(str.repeat(5)); // ★★★★★
+
+
+
+
+
+
