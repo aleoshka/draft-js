@@ -2,9 +2,7 @@
 
 let start = new Date();
 
-start.setSeconds(31);
-
-console.log(start.getSeconds()); // 31
+console.log(start.toDateString()); // Wed Feb 22 2023
 
 
 
