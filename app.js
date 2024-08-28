@@ -1,10 +1,9 @@
 'use strict';
 
-let str = "Этот метод является регистрозависимым.";
+let str = "Привет, Лия!";
 
-console.log(str.startsWith("Этот"));       // true
-console.log(str.startsWith("этот"));       // false
-console.log(str.startsWith("метод", 5));   // true
+console.log(str.slice(0, 6));  // Привет
+console.log(str.slice(8, 11)); // Лия
 
 
 
