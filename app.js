@@ -1,8 +1,9 @@
 'use strict';
 
-let str = "  Привет, Лия  ";
+let today = new Date();
+let year = today.getFullYear();
 
-console.log(str.trim()); // Привет, Лия
+console.log(year); // 2024
 
 
 
