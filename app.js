@@ -1,9 +1,8 @@
 'use strict';
 
-let str = "★";
+let str = "Привет, Лия!";
 
-console.log(str.repeat(1)); // ★
-console.log(str.repeat(5)); // ★★★★★
+console.log(str.replace("Лия", "Макс")); // Привет, Макс!
 
 
 
