@@ -1,10 +1,9 @@
 'use strict';
 
-let today = new Date();
-let seconds = today.getSeconds();
+let date = new Date();
+let weekday = date.getDay();
 
-console.log(seconds); // 52
-
+console.log(weekday); // 1
 
 
 
