@@ -1,9 +1,9 @@
 'use strict';
 
 let today = new Date();
-let month = today.getMonth();
+let date = today.getDate();
 
-console.log(month); // 1
+console.log(date); // 28
 
 
 
