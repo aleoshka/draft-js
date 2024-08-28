@@ -1,9 +1,9 @@
 'use strict';
 
 let today = new Date();
-let hours = today.getHours();
+let minutes = today.getMinutes();
 
-console.log(hours); // 7
+console.log(minutes); // 7
 
 
 
