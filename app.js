@@ -2,7 +2,7 @@
 
 let start = new Date();
 
-console.log(start.toDateString()); // Wed Feb 22 2023
+console.log(start.toTimeString()); // 11:55:35 GMT+0300 (Moscow Time)
 
 
 
