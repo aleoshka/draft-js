@@ -1,8 +1,10 @@
 'use strict';
 
-let date = new Date();
+let start = new Date();
 
-console.log(date.getTime()); // 1678093002926
+start.setFullYear(1994);
+
+console.log(start.getFullYear()); // 1994
 
 
 
