@@ -2,9 +2,9 @@
 
 let start = new Date();
 
-start.setHours(7);
+start.setMinutes(53);
 
-console.log(start.getHours()); // 7
+console.log(start.getMinutes()); // 53
 
 
 
